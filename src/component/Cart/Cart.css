@@ -1,4 +1,6 @@
 .cart {
-  background-color: beige;
+  background-color: rgba(255, 228, 196, 0.335);
   border: 2px solid;
+  padding: 16px;
+  height: 480px;
 }

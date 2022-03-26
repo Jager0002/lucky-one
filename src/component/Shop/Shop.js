@@ -6,7 +6,7 @@ import "./Shop.css";
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
-
+  // const [] = useState([]);
   useEffect(() => {
     fetch("db.json")
       .then((res) => res.json())
@@ -17,6 +17,11 @@ const Shop = () => {
     let newCart = [];
     newCart = [...cart, selectedProduct];
     setCart(newCart);
+  };
+
+  const handleChooseOne = () => {
+    const randomNum = Math.round(Math.random() * 3);
+    alert(cart[randomNum].name);
   };
 
   return (
@@ -30,7 +35,7 @@ const Shop = () => {
           ></Product>
         ))}
       </div>
-      <Cart cart={cart}></Cart>
+      <Cart cart={cart} handleChooseOne={handleChooseOne}></Cart>
     </div>
   );
 };
