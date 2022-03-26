@@ -1,0 +1,18 @@
+.products img {
+  width: 100%;
+}
+.image-banner {
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 16px;
+  justify-content: space-between;
+}
+.btn-add-to-cart {
+}
+.btn {
+  padding: 16px 20px;
+}

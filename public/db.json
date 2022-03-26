@@ -1,0 +1,86 @@
+[
+  {
+    "id": "623eec7be16034b9a8305f1f",
+    "name": "The College Dropout",
+    "picture": "https://m.media-amazon.com/images/I/91ZZsD5t+zL._SX425_.jpg",
+    "price": "$29.27",
+    "band": "Kanye West"
+  },
+  {
+    "id": "623eec7bd650937a4e7565ab",
+    "name": "Foo Fighters - Greatest Hits",
+    "picture": "https://m.media-amazon.com/images/I/71fG2s-bYfL._AC_UL320_.jpg",
+    "price": "$23.87",
+    "band": "Foo Fighters"
+  },
+  {
+    "id": "623eec7be2f25de95e962301",
+    "name": "My Beautiful Dark Twisted Fantasy",
+    "picture": "https://m.media-amazon.com/images/I/713N4ZIYsEL._AC_UL320_.jpg",
+    "price": "$10.28",
+    "band": "Kanye West"
+  },
+  {
+    "id": "623eec7b78bcd7f14ca6346b",
+    "name": "Abbey Road Anniversary",
+    "picture": "https://m.media-amazon.com/images/I/81dUVKQDBEL._AC_UL320_.jpg",
+    "price": "$24.23",
+    "band": "The Beatles"
+  },
+  {
+    "id": "623eec7b8bffa30384ecd8cb",
+    "name": "Led Zeppelin IV Remastered Original",
+    "picture": "https://m.media-amazon.com/images/I/81evsr3Oq0L._AC_UY218_.jpg",
+    "price": "$26.03",
+    "band": "Led Zeppelin"
+  },
+  {
+    "id": "623eec7b8428f36a71eda4d2",
+    "name": "Nevermind",
+    "picture": "https://m.media-amazon.com/images/I/61quAjwYMtS._AC_UL320_.jpg",
+    "price": "$35.48",
+    "band": "Nirvana"
+  },
+  {
+    "id": "623eec7bcaaab0dd208fd3d9",
+    "name": "Legend",
+    "picture": "https://m.media-amazon.com/images/I/51DWv2t4UVL._AC_UL320_.jpg",
+    "price": "$15.25",
+    "band": "Bob Marley"
+  },
+  {
+    "id": "623eec7be7de65a48a251e2c",
+    "name": "Fear Inoculum (Limited Edition Vinyl)",
+    "picture": "https://m.media-amazon.com/images/I/71GkTCG6o+L._AC_UL320_.jpg",
+    "price": "$14.77",
+    "band": "ΤOOL"
+  },
+  {
+    "id": "623eec7b9a2bcd5955088c8c",
+    "name": "Wasting Light",
+    "picture": "https://m.media-amazon.com/images/I/71pU5-Wp0RL._AC_UL320_.jpg",
+    "price": "$22.77",
+    "band": "Foo Fighters"
+  },
+  {
+    "id": "623eec7bc07b511743ac276a",
+    "name": "Currents",
+    "picture": "https://m.media-amazon.com/images/I/61lZf+MnEIL._AC_UL320_.jpg",
+    "price": "$36.07",
+    "band": "Tame Impala"
+  },
+  {
+    "id": "623eec7b5ece7fd93241209b",
+    "name": "The Wall",
+    "picture": "https://m.media-amazon.com/images/I/71Ky4pPxgLL._SX425_.jpg",
+    "price": "$11.84",
+    "band": "Pink Floyd"
+  },
+  {
+    "id": "623eec7b21d18a1042842069",
+    "name": "Tell All Your Friends",
+    "picture": "https://m.media-amazon.com/images/I/712M+MRHQvL._AC_UY218_.jpg",
+    "price": "$20.24",
+    "band": "Taking Back Sunday"
+  }
+]
