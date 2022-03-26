@@ -8,7 +8,9 @@ const Cart = (props) => {
     <div className="cart">
       <h2>Selected</h2>
       {cart.map((product) => (
-        <h2 key={product.id}>{product.name}</h2>
+        <h2 className="selected-product" key={product.id}>
+          {product.name}
+        </h2>
       ))}
       <button onClick={handleChooseOne}>Choose One</button>
       <button>Choose Again</button>
