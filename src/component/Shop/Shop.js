@@ -14,14 +14,19 @@ const Shop = () => {
   }, []);
 
   const handleAddToCart = (selectedProduct) => {
+    if (cart.length > 3) {
+      return;
+    }
     let newCart = [];
     newCart = [...cart, selectedProduct];
     setCart(newCart);
   };
 
   const handleChooseOne = () => {
-    const randomNum = Math.round(Math.random() * 3);
-    alert(cart[randomNum].name);
+    if (cart.length > 0) {
+      const randomNum = Math.round(Math.random() * 3);
+      alert(cart[randomNum].name);
+    }
   };
 
   const handleChooseAgain = () => {

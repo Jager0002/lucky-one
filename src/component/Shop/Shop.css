@@ -1,6 +1,6 @@
 .shop {
   width: 90%;
-  margin: 0 auto;
+  margin: 64px auto 10px;
   display: grid;
   grid-template-columns: 4fr 1fr;
   gap: 50px;

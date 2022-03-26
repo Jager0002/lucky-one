@@ -7,16 +7,19 @@ const Product = ({ product, handleAddToCart }) => {
   const { id, name, picture: img, price, band } = product;
   return (
     <div className="products">
-      <div>
-        <div className="image-banner">
-          <img src={img} alt="" />
-        </div>
+      <div className="product-container">
         <div>
-          <h5>Name: {name}</h5>
-          <h5>Price: {price}</h5>
-          <h5>Band: {band}</h5>
+          <div className="image-banner">
+            <img src={img} alt="" />
+          </div>
+          <div>
+            <h5>Name: {name}</h5>
+            <h5>Price: {price}</h5>
+            <h5>Band: {band}</h5>
+          </div>
         </div>
       </div>
+
       <button
         onClick={() => handleAddToCart(product)}
         className="btn btn-add-to-cart"
