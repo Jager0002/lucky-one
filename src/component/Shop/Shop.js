@@ -24,6 +24,11 @@ const Shop = () => {
     alert(cart[randomNum].name);
   };
 
+  const handleChooseAgain = () => {
+    let newCart = [];
+    setCart(newCart);
+  };
+
   return (
     <div className="shop">
       <div className="shop-products">
@@ -35,7 +40,11 @@ const Shop = () => {
           ></Product>
         ))}
       </div>
-      <Cart cart={cart} handleChooseOne={handleChooseOne}></Cart>
+      <Cart
+        cart={cart}
+        handleChooseAgain={handleChooseAgain}
+        handleChooseOne={handleChooseOne}
+      ></Cart>
     </div>
   );
 };
