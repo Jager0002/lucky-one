@@ -5,7 +5,7 @@ const Cart = (props) => {
   const { cart, handleChooseOne, handleChooseAgain } = props;
   return (
     <div className="cart">
-      <h2>Selected</h2>
+      <h2 className="title">Selected</h2>
       {cart.map((product, index) => (
         <div className="selected-product-container" key={product.id + index}>
           <img src={product.picture} alt="" />
