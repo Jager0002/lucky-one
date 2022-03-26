@@ -3,7 +3,6 @@ import "./Cart.css";
 
 const Cart = (props) => {
   const { cart, handleChooseOne, handleChooseAgain } = props;
-  console.log(cart);
   return (
     <div className="cart">
       <h2>Selected</h2>
