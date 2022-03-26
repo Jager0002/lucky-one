@@ -2,16 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import Shop from "./component/Shop/Shop";
 import Header from "./component/Header/Header";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
     <div className="">
       <Header></Header>
       <Shop></Shop>
-      <h4>How React works?</h4>
-      <p></p>
-      <h4>Props vs States</h4>
-      <p></p>
+      <Footer></Footer>
     </div>
   );
 }
